@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 
-{% block content %}
-
 {% load static %} 
+
+{% block title %}Sensive Blog - Contact{% endblock %}
+
+{% block content %}
 
 <main class="site-main">
     <!--================Hero Banner start =================-->  
@@ -17,9 +19,8 @@
         </div>
       </div>
     </section>
-    <section class="mb-30px">
 
-    
+    <section class="mb-30px">
         <div style = " width:1000px; margin: auto; display:flex; align-items: center; justify-content: center;">
             {{ html_map|safe}}
         </div>
