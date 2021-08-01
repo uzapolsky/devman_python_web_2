@@ -3,8 +3,6 @@
 import os
 import sys
 
-print('asfwetg waergwerg')
-
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sensive_blog.settings")
     try:
