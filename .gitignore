@@ -2,5 +2,5 @@
 __pycache__
 .vscode/
 .replit
-.sqlite3
+*.sqlite3
 media/
